@@ -1,23 +1,90 @@
+/*------------------------------------*\
+                GENERAL
+\*------------------------------------*/
 body {
-  background-color: grey;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  margin: auto;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 300;
 
 }
-
-/*HEADER*/
+/*------------------------------------*\
+          HEADER ET NAVIGATION
+\*------------------------------------*/
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   color: #ffffff;
-  background-image: url(Omnifood_Contents/hero.jpg);
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(Omnifood_Contents/hero.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
   height: 100vh;
+
+}
+.logo {
+  height: 100px;
+width: auto;
+float: left;
+margin-top: 20px;
+}
+header img {
+  width: 100px;
+ height: 100px;
+ padding-top: 20px;
+}
+
+nav a {
+  display:block;
+  float: right;
+  margin-top: 55px;
+ color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 2%;
+  font-size: 90%;
+
+}
+nav a:hover {
+  border-bottom: 2px solid #BF55EC;
+}
+
+.jumbotron {
+  padding: 10%;
+}
+h1 {
+  /*margin-top: 0;
+/*margin-bottom: 20px;*/*/
+color: #fff;
+font-size: 3em;
+font-weight: 300;
+text-transform: uppercase;
+word-spacing: 4px;
+letter-spacing: 1px;
+}
+
+a.btn-hangry-md, a.btn-healthy-lg {
+  text-decoration: none;
+  color:#ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 200px;
+  padding: 10px 30px;
+}
+a.btn-hangry-md:hover, a.btn-healthy-lg:hover {
+  border: 1px solid #BF55EC;
+  color: #BF55EC;
 }
 
 
-/*FOOTER*/
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
 footer {
   background-color: #333333;
 }
