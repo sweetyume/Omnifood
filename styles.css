@@ -1,3 +1,28 @@
 body {
   background-color: grey;
+  width: 100%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+
+}
+
+/*HEADER*/
+.header {
+  color: #ffffff;
+  background-image: url(Omnifood_Contents/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+
+/*FOOTER*/
+footer {
+  background-color: #333333;
+}
+
+
+.social-icons {
+  color: red:
 }

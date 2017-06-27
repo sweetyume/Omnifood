@@ -8,6 +8,10 @@
   <title>Omnifood</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="grid.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
@@ -23,7 +27,7 @@
         <a href="#">Sign up</a>
       </nav>
 
-      <div class="">
+      <div class="jumbotron">
         <h1>Do you want to eat better? <br>
       Welcome to healthy meals.</h1>
         <a href="#" class="btn-hangry-md">I'm hangry</a>
@@ -33,9 +37,9 @@
 
     <!-- FIN MENU NAVIGATION -->
     <!-- BLOCK 2 FEATURES SECTION-->
-    <section>
+    <section id="features">
 
-      <div class="row">
+      <div class="row-features-title">
         <h2>Get food fast - Not fast food</h2>
         <p>Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!</p>
       </div>
@@ -46,7 +50,7 @@
           <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
 
         </div>
-        <div class="row">
+        <div class="row-features-description">
           <div class="col span-1-of-4 box">
             <i class="ion-planet icon-big"></i>
             <h3>READY IN 20 MINUTES</h3>
@@ -86,7 +90,7 @@
       </div>
       <!-- FIN BLOCK 3 MEALS SECTION -->
       <!-- BLOCK 4 HOW IT WORKS SECTION -->
-      <section>
+      <section id="howItWorks">
         <div class="row">
           <h2>HOW IT WORKS — SIMPLE AS 1, 2, 3</h2>
 
@@ -97,16 +101,16 @@
           </div>
           <div class="col span-1-of-2 box">
             <div class="work">
-              <div class="">1</div>
+              <div class="content">1</div>
               <p>Choose the subscription plan that best fits your needs and sign up today.</p>
             </div>
             <div class="work">
-              <div class="">2</div>
+              <div class="content">2</div>
               <p>Order your delicious meal using our mobile app or website. Or you can even call us!
               </p>
             </div>
             <div class="work">
-              <div class="">3</div>
+              <div class="content">3</div>
               <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
             </div>
           </div>
@@ -117,7 +121,7 @@
       </section>
       <!-- FIN BLOCK 4 HOW IT WORKS SECTION -->
       <!-- BLOCK 5 CITIES SECTION -->
-      <section>
+      <section id="cities">
 
         <div class="row">
           <h2>We're currently in these cities.</h2>
@@ -190,7 +194,7 @@
 
       <!-- FIN BLOCK 5 CITIES -->
       <!-- BLOCK 6 TESTIMONIALS -->
-      <section>
+      <section id="testimonies">
         <div class="row">
           <h2>Our customers depend on our healthy stealthy meals.</h2>
         </div>
@@ -228,20 +232,20 @@ Joana Silva            </cite>
       </section>
       <!-- FIN BLOCK 6 TESTIMONIALS -->
       <!-- BLOCK 7 PAYMENTS -->
-      <section>
+      <section id="payments">
         <div class="row">
           <h2>START EATING HEALTHY TODAY</h2>
           <hr>
         </div>
         <div class="row">
           <div class="col span-1-of-3">
-            <div class="">
+            <div class="price">
               <h3>Rock Star</h3>
               <p>$399 / month</p>
               <p>That's only $14.90 per meal
               </p>
             </div>
-            <div class="">
+            <div class="price-details">
               <ul>
                 <li><i></i> 1 meal every day </li>
                 <li><i></i> Order 24/7 </li>
@@ -255,12 +259,12 @@ Joana Silva            </cite>
             </div>
           </div>
           <div class="col span-1-of-3">
-            <div class="">
+            <div class="price">
               <h3>Family-man</h3>
               <p>$149 / month</p>
               <p>That's only $13.30 per meal</p>
             </div>
-            <div class="">
+            <div class="price-details">
               <ul>
                 <li><i></i> 1 meal 10 days a month </li>
                 <li><i></i> Order 24/7</li>
@@ -273,11 +277,11 @@ Joana Silva            </cite>
             </div>
           </div>
           <div class="col span-1-of-3">
-            <div class="">
+            <div class="price">
               <h3>Budget</h3>
               <p>$19 / per meal</p>
             </div>
-            <div class="">
+            <div class="price-details">
               <ul>
                 <li><i></i> 1 meal</li>
                 <li><i></i> Order from 8 am to 12 pm </li>
@@ -294,7 +298,7 @@ Joana Silva            </cite>
       </section>
       <!-- FIN BLOCK 7 PAYMENTS -->
       <!-- BLOCK 8 PLANS -->
-      <section>
+      <section id="maps">
         <div class="map">
 
         </div>
@@ -302,7 +306,7 @@ Joana Silva            </cite>
           <div class="row">
             <h2>WE ARE HAPPY TO HEAR FROM YOU</h2>
           </div>
-          <div class="row">
+          <div class="row forms">
             <form class="contact-form" action="index.html" method="post">
 
             </form>
@@ -310,7 +314,36 @@ Joana Silva            </cite>
           </div>
         </div>
       </section>
+      <!-- FIN BLOCK 8 PLANS -->
+<!-- FOOTER -->
+<footer>
+  <div class="row">
+    <div class="col span-1-of-2">
+      <ul class="footer-nav">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">iOS App</a></li>
+        <li><a href="#">Android App</a></li>
+      </ul>
+    </div>
+<div class="col span-1-of-2">
+  <ul class="social-icons">
+    <li><a href="#"><i class="fa fa-facebook social-icons" aria-hidden="true"></i>
+</a></li>
+    <li><a href="#"><i class="fa fa-twitter social-icons" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-google-plus social-icons" aria-hidden="true"></i></a>
+</li>
+    <li><a href="#"><i class="fa fa-instagram social-icons" aria-hidden="true"></i></a>
+</li>
+  </ul>
+</div>
+<div class="row">
+  <p>Copyright © 2015 built by Ian Poston</p>
 
+</div>
+  </div>
+</footer>
       </div>
 
 </body>
